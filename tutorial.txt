@@ -7,7 +7,10 @@ git commit -m "first commit"
 git remote add origin https://github.com/KovalskyGF/WorkWithGit.git
 git push -u origin master
 
-…or push an existing repository from the command line
 
-git remote add origin https://github.com/KovalskyGF/WorkWithGit.git
-git push -u origin master
+
+Re-push & commit
+Git clone https://github.com/KovalskyGF/WorkWithGit.git
+Add commit
+git status
+git push
