@@ -10,7 +10,8 @@ git push -u origin master
 
 
 Re-push & commit
-Git clone https://github.com/KovalskyGF/WorkWithGit.git
-Add commit
+Git add *
+git commit -m "change commit"
 git status
+Git clone https://github.com/KovalskyGF/WorkWithGit.git
 git push
