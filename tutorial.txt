@@ -1,17 +1,24 @@
-…or create a new repository on the command line
+<-- Push -->
 
-echo "# WorkWithGit" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/KovalskyGF/WorkWithGit.git
 git push -u origin master
 
+<-- Clone -->
+
+git clone https://github.com/KovalskyGF/WorkWithGit.git
 
 
-Re-push & commit
-Git add *
-git commit -m "change commit"
-git status
-Git clone https://github.com/KovalskyGF/WorkWithGit.git
-git push
+<-- Branch -->
+
+git checkout [name] , where name:
+[name] for create or switch branch
+
+Delete branch
+git checkout branch -d [name] 
+
+git log --oneline | view lits of changed inline
+
+git merge [name] | branch [master] + [name]
